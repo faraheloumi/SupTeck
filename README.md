@@ -4,9 +4,11 @@
 <div align="center">
   <h1 style="font-size:50px">SupTeck
     </h1>
+  <p align="center">
   <a href="https://github.com/faraheloumi/SupTeck">
-    <img src="images/suptecknoir.png" alt="Logo" width="500" height="500" style="margin-top: -10px; margin-bottom: -10px;>
+    <img src="images/suptecknoir.png" alt="Logo" width="500" height="500" style="margin-top: -30px; margin-bottom: -30px;">
   </a>
+  </p>
   <p align="center">
     Purchase electronic devices
     <br />
