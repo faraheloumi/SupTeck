@@ -8,12 +8,12 @@
     <img src="images/suptecknoir.png" alt="Logo" width="500" height="500" style="margin-top: -10px; margin-bottom: -10px;>
   </a>
   <p align="center">
-    Track of stocks, exchange rates, and cryptocurrencies
+    Purchase electronic devices
     <br />
     <br />
-    <a href="https://github.com/faraheloumi/SupTeck/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/faraheloumi/FinanSync/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/faraheloumi/SupTeck/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/faraheloumi/FinanSync/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
