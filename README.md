@@ -19,7 +19,7 @@
   </p>
 </div>
 
-# FinanSync
+# SupTeck
 
 ## About The Project
 
