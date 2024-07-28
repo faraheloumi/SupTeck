@@ -1,0 +1,145 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Clavier</title>
+        <link rel="stylesheet" type="text/css" href="ajout.css">
+        <link rel="stylesheet" type="text/css" href="clavier.css">
+    </head>
+<body>
+    <header>
+        <nav class="style-4">
+            <ul class="menu-4">
+                <li><a href="accueil.html" data-hover="Accueil" >Accueil</a></li>
+                <li><a href="ordinateur.html" data-hover="Ordinateur" >Ordinateur</a></li>
+                <li><a href="souris.html" data-hover="Souris" >Souris</a></li>
+                <li class="current"><a href="clavier.html" data-hover="Clavier" >Clavier</a></li>
+                <li><a href="micro casque.html" data-hover="Micro Casque" >Micro Casque</a></li>
+                <li><a href="imprimante.html" data-hover="Imprimante" >Imprimante</a></li>
+                
+              </ul>
+        </nav>
+        <a href="payer.html" data-hover="Panier">
+            <img src="panier.png" height="100" width="150">
+          </a>           
+    </header>
+    
+    <table id="tableau" style="border-left: 20%;">
+        <tr>
+            <td class="im"><img src="c1.png" width="300"height="300"></td>
+            <td class="im"><img src="c2.png" width="300"height="300"></td>
+            <td class="im"><img src="c3.png" width="300"height="300"></td>
+            <td class="im"><img src="c4.png" width="300"height="300"></td>
+        </tr>
+        <tr id="color">
+            <td id="2">ZYG Clavier Mecanique gamer LED - ZYG-800 - Noir<br>
+                <b>prix: 100.00 TND</b> <br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+            <td id="1">Macro Clavier simple k74 - Francais et arabe<br>
+                <b>prix : 15.00TND</b><br><br>
+                <button>ajout Panier</button>
+                    <button id="moins">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  
+            </td> 
+            <td id="5">Flexible Clavier Flexible - Noire<br>
+                <b>prix :24.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+            <td id="4">Promate Clavier filaire a touches silencieuses Francais- EASYKEY-4<br>
+                <b>prix : 32.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="im"><img src="c5.png" width="300"height="300"></td>
+            <td class="im"><img src="c6.png" width="300"height="300"></td>
+            <td class="im"><img src="c7.png" width="300"height="300"></td>
+            <td class="im"><img src="c8.png" width="300"height="300"></td>
+        </tr>
+        <tr  id="color">
+            <td id="6">Clavier gamer RGB - USB<br>
+                <b>prix : 50.800 TND</b><br><br>
+                <button>ajout Panier</button>
+                
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  
+            </td>
+            <td id="7">Logitech Clavier Sans Fil TOUCH KEYBOARD K400 PLUS- NOIR - 920-007129<br>
+                <b>prix : 138.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+            <td id="8">Havit Clavier Gamer - KB488L RGB - Backlit - Noir<br>
+                <b>prix : 40.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+            <td id="9">XTRIKE ME Clavier de jeu avec retroeclairage de couleurs mixtes<br>
+                <b>prix : 65.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+        </tr>
+    </table>
+    <button type="submit" id="pay" ><a href="payer.html" target="_blank"> Acheter </a></button>
+    <script>
+            
+        let add = document.getElementById("add");
+        let subract = document.getElementById("subtract");
+        let int = document.getElementById("output");
+        let count = 0;
+        add.addEventListener('click', function () {
+            count += 1; alert(count);
+            int.innerHTML = count;
+        })
+                </script>
+    
+</body>
+</html>

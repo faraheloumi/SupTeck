@@ -1,0 +1,147 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Micro Casque</title>
+        <link rel="stylesheet" type="text/css" href="ajout.css">
+        <link rel="stylesheet" href="proj.js">
+        <link rel="stylesheet" type="text/css" href="microcasque.css">
+      
+    </head>
+<body>
+    <header>
+        <nav class="style-4">
+            <ul class="menu-4">
+                <li><a href="accueil.html" data-hover="Accueil" >Accueil</a></li>
+                <li><a href="ordinateur.html" data-hover="Ordinateur" >Ordinateur</a></li>
+                <li><a href="souris.html" data-hover="Souris" >Souris</a></li>
+                <li><a href="clavier.html" data-hover="Clavier" >Clavier</a></li>
+                <li class="current"><a href="micro casque.html" data-hover="Micro Casque" >Micro Casque</a></li>
+                <li><a href="imprimante.html" data-hover="Imprimante" >Imprimante</a></li>
+                
+              </ul>
+            </nav>
+            <a href="payer.html" data-hover="Panier">
+                <img src="panier.png" height="100" width="150">
+              </a>
+          
+    </header>
+    <table id="tableau2" >
+        <tr>
+            <td class="im"><img src="m1.png" width="300"height="300"></td>
+            <td class="im"><img src="m2.png" width="300"height="300"></td>
+            <td class="im"><img src="m3.png" width="300"height="300"></td>
+            <td class="im"><img src="m4.png" width="300"height="300"></td>
+        </tr>
+        <tr id="color">
+            <td id="2">Sbox Micro Casque - HS-501W - Blanc<br>
+                <b>prix: 50.00 TND</b> <br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+            <td id="1">XTRIKE ME Micro Casque Gamer - GH509 - RGB - USB&Jack - Noir<br>
+                <b>prix : 85.00TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td> 
+            <td id="5">Havit Casque micro Gamer HV-H2011D<br>
+                <b>prix :64.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+            <td id="4">Komc Casque Micro - USB - Avec commande<br>
+                <b>prix : 72.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="im"><img src="m5.png" width="300"height="300"></td>
+            <td class="im"><img src="m6.png" width="300"height="300"></td>
+            <td class="im"><img src="m7-.png" width="300"height="300"></td>
+            <td class="im"><img src="m8.png" width="300"height="300"></td>
+        </tr>
+        <tr  id="color">
+            <td id="6">Havit Casque Gamer Micro USB - H2168D<br>
+                <b>prix : 70.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+            <td id="7">Mp3 Bluetooth P47 Casque MP3 - Bluetooth - Noir - Micro Intégré<br>
+                <b>prix : 38.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+            <td id="8">eShark Micro casque gamer KUGO-V2 -ESL-HS5- Noir<br>
+                <b>prix : 190.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+            <td id="9">Asus Casque micro gaming -Tuf - PS4/SWITCH/XBOX ONE/PC<br>
+                <b>prix : 265.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+        </tr>
+    </table>
+    <button type="submit" id="pay" ><a href="payer.html" target="_blank"> Acheter </a></button>
+    <script>
+            
+        let add = document.getElementById("add");
+        let subract = document.getElementById("subtract");
+        let int = document.getElementById("output");
+        let count = 0;
+        add.addEventListener('click', function () {
+            count += 1; alert(count);
+            int.innerHTML = count;
+        })
+                </script>
+</body>
+</html>

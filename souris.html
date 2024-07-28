@@ -1,0 +1,147 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Souris</title>
+        <link rel="stylesheet" type="text/css" href="ajout.css">
+        <link rel="stylesheet" href="proj.js">
+        <link rel="stylesheet" type="text/css" href="souris.css">
+      
+    </head>
+<body>
+    <header>
+        <nav class="style-4">
+            <ul class="menu-4">
+                <li><a href="accueil.html" data-hover="Accueil" >Accueil</a></li>
+                  <li><a href="ordinateur.html" data-hover="Ordinateur" >Ordinateur</a></li>
+                  <li class="current"><a href="souris.html" data-hover="Souris" >Souris</a></li>
+                  <li><a href="clavier.html" data-hover="Clavier" >Clavier</a></li>
+                  <li><a href="micro casque.html" data-hover="Micro Casque" >Micro Casque</a></li>
+                  <li><a href="imprimante.html" data-hover="Imprimante" >Imprimante</a></li>
+                  
+            </ul>
+        </nav>
+        <a href="payer.html" data-hover="Panier">
+            <img src="panier.png" height="100" width="150">
+          </a>           
+    </header>
+    <table id="tableau4">
+        <tr>
+            <td class="im"><img src="s1.png" width="300"height="300"></td>
+            <td class="im"><img src="s2.png" width="300"height="300"></td>
+            <td class="im"><img src="s3.png" width="300"height="300"></td>
+            <td class="im"><img src="s4.png" width="300"height="300"></td>
+        </tr>
+        <tr id="color">
+            <td id="2">Havit Souris optique Gamer - Usb HV-MS1025 <br>
+                <b>prix: 30.00 TND</b> <br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+            <td id="1">Souris Gaming - Noir<br>
+                <b>prix : 25.00TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td> 
+            <td id="5">Havit Souris optique Gamer - Usb HV-MS1018<br>
+                <b>prix :34.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+            <td id="4">Havit Souris optique Gamer - Usb - Noir<br>
+                <b>prix : 32.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="im"><img src="s5.png" width="300"height="300"></td>
+            <td class="im"><img src="s6.png" width="300"height="300"></td>
+            <td class="im"><img src="s7.png" width="300"height="300"></td>
+            <td class="im"><img src="s8.png" width="300"height="300"></td>
+        </tr>
+        <tr  id="color">
+            <td id="6">Souris optique - Sans fil - Noir w201<br>
+                <b>prix : 19.800 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+            <td id="7">Hp Souris Filaire HP - Noir<br>
+                <b>prix : 38.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+            <td id="8">Havit Souris optique Gamer - Usb HV-MS1027 <br>
+                <b>prix : 30.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+            <td id="9">Havit Souris Sans Fil Gaming HV-MS997GT<br>
+                <b>prix : 45.000 TND</b><br><br>
+                <button>ajout Panier</button>
+                <div class="counter_conatiner">
+                    <button id="subtract">-</button>
+                    <span id="output">0</span>
+                    <button id="add">+</button>
+                    <script src="proj.js">
+                    </script>
+                  </div>
+            </td>
+        </tr>
+    </table>
+    </div>
+    <button type="submit" id="pay" ><a href="payer.html" target="_blank"> Acheter </a></button>
+    <script>
+            
+        let add = document.getElementById("add");
+        let subract = document.getElementById("subtract");
+        let int = document.getElementById("output");
+        let count = 0;
+        add.addEventListener('click', function () {
+            count += 1; alert(count);
+            int.innerHTML = count;
+        })
+                </script>
+</body>
+</html>

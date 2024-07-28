@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact us</title>
+    <link rel="stylesheet" type="text/css" href="payer.css">
+    <link rel="stylesheet" href="proj.js">
+</head>
+
+<body>
+
+    <form name="mainForm" onsubmit="return checkForm()">
+        <div class="form-inner">
+            <input type="text" id="clock" onclick="timerFunc()"/>
+            <h1>Payement</h1>
+            <input type="text" name="firstName" id="Nom" placeholder="Nom" onkeyup="majus()">
+            <input type="text" id="Prenom" placeholder="Prenom" onkeyup="majus()">
+            <input type="number" placeholder="Phone">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Adresse">
+        </div>
+        <div>
+            <h2 id="Payement">Type de Payement</h2>
+            <label id="cc" class="ccb">Carte Credit</label>
+            <input type="radio" name="credit"  id="btn"> <br>
+            <label id="cc">Cash</label>
+            <input type="radio" name="credit" ><br><br>
+
+            <h2 id="livraison">Livraison (8DT)</h2>
+            <label id="cc">Yes</label>
+            <input type="radio" name="credit" value="Carte Credit" id="btn"> <br>
+            <label id="cc">No</label> 
+            <input type="radio" name="credit" value="Cash"><br>
+             <button type="submit"  id="pay" onclick="myFunction()" onclick="changecolor()" ><a href="success.html"> Payer </a></button>
+        </div>  
+    </form>
+   

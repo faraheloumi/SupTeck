@@ -1,0 +1,89 @@
+* {box-sizing: border-box;
+    }
+* {
+        font-family: 'Times New Roman', Times, serif;
+    }
+#clock{
+    width: 80px;
+    margin-left: 580px;
+}
+html, body {
+    min-height: 100vh;
+    font-size: 14px; 
+    color: rgb(7, 7, 7);
+}
+body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-image: url(11.jpg); 
+}
+h1 {
+    margin-top: 0;
+    font-weight: 500;
+    color: rgb(132, 35, 141);
+    }
+h2 {
+    margin-top: 0;
+    margin-left: 35px;
+    font-weight: 500;
+    color: rgb(132, 35, 141);
+}
+h5{ 
+    margin-top: 0;
+    margin-left: 35px;
+    font-weight: 500;
+    color: rgb(132, 35, 141);
+}
+form {
+    position: relative;
+    width: 80%;
+    border-radius: 30px;
+    background: #fff;
+    opacity: 90%;
+}
+.form-inner {
+    padding: 40px;
+    margin-bottom: 0px;
+}
+.form-inner input{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 6px;
+    border: none;
+    border-radius: 20px;
+    background: #d0dfe8;
+}
+#cc{
+        margin-left: 45px;
+}
+
+
+form {
+    width: 60%;
+}
+
+#pay {
+    width: 20%;
+    height: 10%;
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-left: 35%;
+    background-color: rgb(177, 184, 247);
+}
+
+#pay a {
+    text-decoration: none; 
+    color: black; 
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+      
+#pay:hover {
+    background: #8f3278;
+}
