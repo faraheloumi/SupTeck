@@ -6,7 +6,7 @@
     </h1>
   <p align="center">
   <a href="https://github.com/faraheloumi/SupTeck">
-    <img src="images/suptecknoir.png" alt="Logo" width="500" height="500" style="margin-top: -30px; margin-bottom: -30px;">
+    <img src="images/suptecknoir.png" alt="Logo" width="300" height="300" style="margin-top: -30px; margin-bottom: -30px;">
   </a>
   </p>
   <p align="center">
